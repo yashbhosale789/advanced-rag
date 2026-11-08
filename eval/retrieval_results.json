@@ -1,0 +1,3978 @@
+[
+  {
+    "id": "Q01",
+    "split": "dev",
+    "query": "Where is the spare tyre located in an Aventro Sedan?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.25
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q02",
+    "split": "dev",
+    "query": "Where is the toolkit stored in Aventro vehicles?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.125
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.5
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q03",
+    "split": "dev",
+    "query": "Where is the spare tyre located in an Aventro SUV?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.25
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.25
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q04",
+    "split": "test",
+    "query": "What steps should I take to safely park before changing a tyre?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.6666666666666666,
+        "success@5": 0.0,
+        "recall@20": 0.6666666666666666,
+        "success@20": 0.0,
+        "mrr": 0.25
+      },
+      "fused": {
+        "recall@1": 0.6666666666666666,
+        "success@1": 0.0,
+        "recall@3": 0.6666666666666666,
+        "success@3": 0.0,
+        "recall@5": 0.6666666666666666,
+        "success@5": 0.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 0.6666666666666666,
+        "success@1": 0.0,
+        "recall@3": 0.6666666666666666,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q05",
+    "split": "dev",
+    "query": "Why should lug nuts be loosened before using the jack?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q06",
+    "split": "dev",
+    "query": "What is the correct way to tighten lug nuts after fitting the spare tyre?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q07",
+    "split": "dev",
+    "query": "How high should the vehicle be raised when using the jack?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.2
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q08",
+    "split": "dev",
+    "query": "What should I do after fitting the spare tyre before resuming normal driving?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.2
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q09",
+    "split": "dev",
+    "query": "Is it safe to drive at highway speeds for a long distance using the spare tyre?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.5,
+        "success@20": 0.0,
+        "mrr": 0.125
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "reranked": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q10",
+    "split": "dev",
+    "query": "Does the spare tyre location differ between petrol and electric variants of the same Aventro model?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.07692307692307693
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.5
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q11",
+    "split": "test",
+    "query": "Which Aventro service center should I visit if I am in Hyderabad?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.07692307692307693
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 0.0,
+        "success@10": 0.0,
+        "mrr": 0.0
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "mrr": 0.0
+      }
+    }
+  },
+  {
+    "id": "Q14",
+    "split": "dev",
+    "query": "What tools do I need and in what order should I use them to change a tyre on an Aventro Sedan?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.16666666666666666
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 0.0,
+        "success@10": 0.0,
+        "mrr": 0.0
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "mrr": 0.0
+      }
+    }
+  },
+  {
+    "id": "Q15",
+    "split": "dev",
+    "query": "Where exactly should I position the jack to lift the vehicle?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q16",
+    "split": "test",
+    "query": "How does Adaptive Cruise Control control a vehicle\u2019s speed in traffic?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q17",
+    "split": "dev",
+    "query": "What is the initial action to take when adjusting the seat?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 0.3333333333333333
+      }
+    }
+  },
+  {
+    "id": "Q18",
+    "split": "dev",
+    "query": "What benefits are listed for adjusting the steering wheel?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q19",
+    "split": "dev",
+    "query": "Where should a pregnant driver place the lap portion of the seat belt?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q20",
+    "split": "test",
+    "query": "What steps should I follow to adjust the seat distance from the pedals?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.16666666666666666
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.5
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q21",
+    "split": "dev",
+    "query": "In which direction should a pregnant driver tilt the steering wheel for safety?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q22",
+    "split": "dev",
+    "query": "Where are the radar sensors for adaptive cruise control usually installed?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.25
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q23",
+    "split": "dev",
+    "query": "How do you free the seat backrest so it can be adjusted?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 0.5
+      }
+    }
+  },
+  {
+    "id": "Q24",
+    "split": "test",
+    "query": "What action should you take to change the steering wheel's tilt?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.14285714285714285
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q25",
+    "split": "dev",
+    "query": "How frequently should a pregnant driver pause to stretch on a long journey?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.1
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q26",
+    "split": "dev",
+    "query": "What sensors are employed in some adaptive cruise control systems to improve object detection and lane tracking?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q27",
+    "split": "dev",
+    "query": "What is the maximum angle the backrest may be reclined from the upright position?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q28",
+    "split": "dev",
+    "query": "Is it okay for the steering wheel to hide the gauges while driving?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.09090909090909091
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.25
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q29",
+    "split": "test",
+    "query": "What should a pregnant woman bring to help with motion sickness while traveling by car?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.5
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 0.5
+      }
+    }
+  },
+  {
+    "id": "Q30",
+    "split": "dev",
+    "query": "What function does the electronic control unit perform in Adaptive Cruise Control?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.25
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 0.0,
+        "success@10": 0.0,
+        "mrr": 0.0
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "mrr": 0.0
+      }
+    }
+  },
+  {
+    "id": "Q31",
+    "split": "dev",
+    "query": "I'm pregnant. How far from the steering wheel should I sit?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q32",
+    "split": "dev",
+    "query": "What backrest position should a pregnant driver use?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "bm25": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@20": 0.5,
+        "success@20": 0.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@10": 0.5,
+        "success@10": 0.0,
+        "mrr": 0.5
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "mrr": 0.5
+      }
+    }
+  },
+  {
+    "id": "Q33",
+    "split": "dev",
+    "query": "Should I adjust the steering wheel or the seat first, and how do I set the seat distance from the pedals?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.5
+      },
+      "reranked": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q34",
+    "split": "test",
+    "query": "How do I set my steering wheel so it points at my chest instead of my belly while I'm pregnant?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.3333333333333333,
+        "success@1": 0.0,
+        "recall@3": 0.6666666666666666,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.3333333333333333,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.2
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.3333333333333333,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.5
+      },
+      "reranked": {
+        "recall@1": 0.3333333333333333,
+        "success@1": 0.0,
+        "recall@3": 0.6666666666666666,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q35",
+    "split": "dev",
+    "query": "If a slower car merges in front of me while ACC is on, what does the system do, and what is still my responsibility?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@20": 0.5,
+        "success@20": 0.0,
+        "mrr": 0.2
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@10": 0.5,
+        "success@10": 0.0,
+        "mrr": 0.3333333333333333
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "mrr": 0.5
+      }
+    }
+  },
+  {
+    "id": "Q36",
+    "split": "dev",
+    "query": "What safety precautions apply when adjusting the steering wheel?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.5,
+        "success@20": 0.0,
+        "mrr": 0.1111111111111111
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@10": 0.5,
+        "success@10": 0.0,
+        "mrr": 0.5
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "mrr": 0.25
+      }
+    }
+  },
+  {
+    "id": "Q37",
+    "split": "dev",
+    "query": "Should I deactivate my airbag when I'm pregnant, and how much room should be between my chest and the steering wheel?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q38",
+    "split": "test",
+    "query": "My steering wheel lever is stuck and I'm in Pune. What should I check first, and where is the nearest service center?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@20": 0.5,
+        "success@20": 0.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@10": 0.5,
+        "success@10": 0.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q39",
+    "split": "dev",
+    "query": "How far should I sit from the steering wheel?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.25
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.5
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q40",
+    "split": "dev",
+    "query": "What should I do if the lever is stuck?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.16666666666666666
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.5
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 0.5
+      }
+    }
+  },
+  {
+    "id": "Q41",
+    "split": "dev",
+    "query": "How should I sit while driving?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.05263157894736842
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 0.5
+      }
+    }
+  },
+  {
+    "id": "Q42",
+    "split": "test",
+    "query": "How often should I take a break on a long drive?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.16666666666666666
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.16666666666666666
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.5
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q43",
+    "split": "dev",
+    "query": "Which service center should I contact for help with my car?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.25
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.125
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q48",
+    "split": "dev",
+    "query": "What is the battery capacity of the Aventro Electric models?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q49",
+    "split": "test",
+    "query": "How many airbags does an Aventro Sedan have?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 0.0,
+        "success@10": 0.0,
+        "mrr": 0.0
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "mrr": 0.0
+      }
+    }
+  },
+  {
+    "id": "Q50",
+    "split": "dev",
+    "query": "Is Aventro Roadside Assistance free of charge?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.125
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "mrr": 0.0
+      }
+    }
+  },
+  {
+    "id": "Q51",
+    "split": "dev",
+    "query": "Since the seat backrest can be reclined up to 45\u00b0 while driving, how do I set it to that angle?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q52",
+    "split": "dev",
+    "query": "ACC drives the car for me in heavy traffic, so can I stop paying attention to the road?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.125
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 0.25
+      }
+    }
+  },
+  {
+    "id": "Q55",
+    "split": "dev",
+    "query": "Since the spare tyre is fine for long highway trips, what speed can I drive at?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.1
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q56",
+    "split": "dev",
+    "query": "Since the spare tyre is mounted on the tailgate on every Aventro model, how do I take it off?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.5
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 0.3333333333333333
+      }
+    }
+  },
+  {
+    "id": "Q57",
+    "split": "dev",
+    "query": "What phone number can I call for Aventro Motors support?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q58",
+    "split": "dev",
+    "query": "What are the recommended practices when installing third-party electrical accessories in an Aventro vehicle?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.3333333333333333,
+        "success@1": 0.0,
+        "recall@3": 0.3333333333333333,
+        "success@3": 0.0,
+        "recall@5": 0.6666666666666666,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.3333333333333333,
+        "success@1": 0.0,
+        "recall@3": 0.3333333333333333,
+        "success@3": 0.0,
+        "recall@5": 0.3333333333333333,
+        "success@5": 0.0,
+        "recall@20": 0.3333333333333333,
+        "success@20": 0.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 0.3333333333333333,
+        "success@1": 0.0,
+        "recall@3": 0.3333333333333333,
+        "success@3": 0.0,
+        "recall@5": 0.3333333333333333,
+        "success@5": 0.0,
+        "recall@10": 0.3333333333333333,
+        "success@10": 0.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 0.3333333333333333,
+        "success@1": 0.0,
+        "recall@3": 0.3333333333333333,
+        "success@3": 0.0,
+        "recall@5": 0.3333333333333333,
+        "success@5": 0.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q59",
+    "split": "dev",
+    "query": "How can I contact Aventro Motors for roadside assistance?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q60",
+    "split": "dev",
+    "query": "Is it sufficient to use only parking lights during night driving according to the guidelines?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q61",
+    "split": "dev",
+    "query": "Why might someone choose the Aventro Aero for urban commuting?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.5,
+        "success@20": 0.0,
+        "mrr": 0.16666666666666666
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "fused": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@10": 0.5,
+        "success@10": 0.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q62",
+    "split": "dev",
+    "query": "When do varsity tryouts begin at Cendara University?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 0.0,
+        "success@10": 0.0,
+        "mrr": 0.0
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "mrr": 0.0
+      }
+    }
+  },
+  {
+    "id": "Q63",
+    "split": "dev",
+    "query": "Which programs at Cendara University require an entrance exam?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 0.0,
+        "success@10": 0.0,
+        "mrr": 0.0
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "mrr": 0.0
+      }
+    }
+  },
+  {
+    "id": "Q64",
+    "split": "dev",
+    "query": "What is the course BIOL 101 about?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q65",
+    "split": "dev",
+    "query": "How can a student join a club at Cendara University?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q66",
+    "split": "dev",
+    "query": "How do the contact options differ between the School of Engineering and the School of Business and Economics at Cendara University?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q67",
+    "split": "dev",
+    "query": "Is a personal item allowed in addition to the cabin baggage on CloudWay 24?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.2
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 0.0,
+        "success@10": 0.0,
+        "mrr": 0.0
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "mrr": 0.0
+      }
+    }
+  },
+  {
+    "id": "Q68",
+    "split": "dev",
+    "query": "Why does CloudWay 24 emphasize arriving early for check-in?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.125
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 0.0,
+        "success@10": 0.0,
+        "mrr": 0.0
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "mrr": 0.0
+      }
+    }
+  },
+  {
+    "id": "Q69",
+    "split": "dev",
+    "query": "When is CloudWay 24's insurance policy reviewed and updated?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.14285714285714285
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "mrr": 0.0
+      }
+    }
+  },
+  {
+    "id": "Q70",
+    "split": "dev",
+    "query": "Who is eligible for the CloudWay 24 Armed Forces Discount?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.125
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 0.5
+      }
+    }
+  },
+  {
+    "id": "Q71",
+    "split": "dev",
+    "query": "What is the seating configuration of CloudWay 24's Boeing 787 Dreamliner?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.6666666666666666,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.6666666666666666,
+        "success@1": 0.0,
+        "recall@3": 0.6666666666666666,
+        "success@3": 0.0,
+        "recall@5": 0.6666666666666666,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 0.6666666666666666,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 0.6666666666666666,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q72",
+    "split": "dev",
+    "query": "How can I fix pairing issues with my Velvera Pencil?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 0.0,
+        "success@10": 0.0,
+        "mrr": 0.0
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "mrr": 0.0
+      }
+    }
+  },
+  {
+    "id": "Q73",
+    "split": "dev",
+    "query": "What is the difference between using certified and non-certified accessories for Velvera devices?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 0.5,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "fused": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 0.5,
+        "success@1": 0.0,
+        "recall@3": 0.5,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q74",
+    "split": "dev",
+    "query": "Are Velvera Special & Anniversary Edition products limited and individually numbered?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.5
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q75",
+    "split": "dev",
+    "query": "Why might someone choose a Velvera Start model?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 0.0,
+        "success@20": 0.0,
+        "mrr": 0.0
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@10": 0.0,
+        "success@10": 0.0,
+        "mrr": 0.0
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "mrr": 0.0
+      }
+    }
+  },
+  {
+    "id": "Q76",
+    "split": "dev",
+    "query": "What benefits does the ZX Bank Salary Saving Account offer?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q77",
+    "split": "dev",
+    "query": "What steps should I follow to apply for a cheque book through NetBanking?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.5
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 0.0,
+        "success@5": 0.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.1
+      },
+      "fused": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 0.0,
+        "success@3": 0.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 0.25
+      },
+      "reranked": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 0.5
+      }
+    }
+  },
+  {
+    "id": "Q78",
+    "split": "dev",
+    "query": "How does ZX Bank Fixed Deposits differ from regular savings accounts?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q79",
+    "split": "dev",
+    "query": "Is enabling two-factor authentication (2FA) recommended for online accounts?",
+    "dataset": "8f89d42be9",
+    "corpus": "2222:9e32e2edff",
+    "settings": {
+      "chunk": "512/64",
+      "top_k": 5,
+      "rewrite": false
+    },
+    "metrics": {
+      "dense": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 1.0
+      },
+      "bm25": {
+        "recall@1": 0.0,
+        "success@1": 0.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@20": 1.0,
+        "success@20": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "fused": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "recall@10": 1.0,
+        "success@10": 1.0,
+        "mrr": 1.0
+      },
+      "reranked": {
+        "recall@1": 1.0,
+        "success@1": 1.0,
+        "recall@3": 1.0,
+        "success@3": 1.0,
+        "recall@5": 1.0,
+        "success@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  }
+]
